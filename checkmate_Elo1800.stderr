@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/zoli/.local/gptchess/skynet-dev/GPT_Black/debug_GPT_Black-checkmate_Elo1800.py", line 87, in <module>
+    uci_move = board.push_san(san_move).uci()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zoli/.local/gptchess/lib/python3.11/site-packages/chess/__init__.py", line 3105, in push_san
+    move = self.parse_san(san)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zoli/.local/gptchess/lib/python3.11/site-packages/chess/__init__.py", line 3087, in parse_san
+    raise IllegalMoveError(f"illegal san: {san!r} in {self.fen()}")
+chess.IllegalMoveError: illegal san: 'Qg1#' in 3q2k1/p1p2pp1/4r2n/4P3/P5P1/7P/5P1K/2q1r3 b - - 0 31
