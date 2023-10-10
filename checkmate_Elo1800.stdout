@@ -1,3 +1,4 @@
+#stdout: example output from GPT-3.5 emulating chess played as Black, with code GPT_Black-checkmate_Elo1800.py
 
  stockfish.get_stockfish_major_version():
 15
